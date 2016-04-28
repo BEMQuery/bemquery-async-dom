@@ -1,4 +1,6 @@
 require( 'bemquery-selector-engine/package.json' );
+require( 'bemquery-core/package.json' );
+require( 'bemquery-async-dom/package.json' );
 
 var fs = require( 'fs' ),
     url = require( 'url' ),
@@ -21,7 +23,9 @@ exports.tonicEndpoint = function( request, response ) {
 		<body>
 			<p>Example</p>
 			
-            <script src="${endpoint}?package="></script>
+            <script src="${endpoint}?package=selector-engine"></script>
+            script src="${endpoint}?package=core"></script>
+            script src="${endpoint}?package=async-dom"></script>
 			<script>
 
 			</script>
