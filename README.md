@@ -1,6 +1,6 @@
-# bemquery-package-boilerplate
+# bemquery-async-dom
 
-[![Build Status](https://travis-ci.org/BEMQuery/bemquery-package-boilerplate.svg?branch=master)](https://travis-ci.org/BEMQuery/bemquery-package-boilerplate) [![Dependency Status](https://david-dm.org/BEMQuery/bemquery-package-boilerplate.svg)](https://david-dm.org/BEMQuery/bemquery-package-boilerplate) [![devDependency Status](https://david-dm.org/BEMQuery/bemquery-package-boilerplate/dev-status.svg)](https://david-dm.org/BEMQuery/bemquery-package-boilerplate#info=devDependencies)
+[![Build Status](https://travis-ci.org/BEMQuery/bemquery-async-dom.svg?branch=master)](https://travis-ci.org/BEMQuery/bemquery-async-dom) [![Dependency Status](https://david-dm.org/BEMQuery/bemquery-async-dom.svg)](https://david-dm.org/BEMQuery/bemquery-async-dom) [![devDependency Status](https://david-dm.org/BEMQuery/bemquery-async-dom/dev-status.svg)](https://david-dm.org/BEMQuery/bemquery-async-dom#info=devDependencies)
 
 Simple boilerplate
 
@@ -9,9 +9,9 @@ Simple boilerplate
 ## Installation
 
 ```bash
-npm install bemquery-package-boilerplate [--save]
+npm install bemquery-async-dom [--save]
 ```
 
 ## Documentation
 
-Docs are available at http://bemquery.github.io/bemquery-package-boilerplate
+Docs are available at http://bemquery.github.io/bemquery-async-dom
