@@ -9,6 +9,7 @@ import Batch from './batch';
  * @param {String} [newHTML] The new inner HTML value. If not specified,
  * the method will work as getter.
  * @return {BEMQuery} Current BEMQuery instance.
+ * @memberof BEMQuery
  */
 BEMQuery.prototype.html = function( newHTML ) {
 	if ( !this.batch ) {

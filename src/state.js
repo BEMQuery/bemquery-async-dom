@@ -7,6 +7,7 @@ import Batch from './batch';
  * Method for getting states from all elements in collection
  *
  * @return {BEMQuery} Current BEMQuery instance.
+ * @memberof BEMQuery
  */
 BEMQuery.prototype.getStates = function() {
 	if ( !this.batch ) {
