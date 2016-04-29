@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/BEMQuery/bemquery-async-dom.svg?branch=master)](https://travis-ci.org/BEMQuery/bemquery-async-dom) [![Dependency Status](https://david-dm.org/BEMQuery/bemquery-async-dom.svg)](https://david-dm.org/BEMQuery/bemquery-async-dom) [![devDependency Status](https://david-dm.org/BEMQuery/bemquery-async-dom/dev-status.svg)](https://david-dm.org/BEMQuery/bemquery-async-dom#info=devDependencies)
 
-Simple boilerplate
+Experiment with implementing asynchronous DOM.
 
 ---
 
