@@ -28,6 +28,8 @@ describe( 'BEMQuery#html', () => {
 	} );
 
 	it( 'gets inner HTML for the all elements in the collection when no parameters are provided', () => {
+		fixture.load( 'elements.html' );
+
 		const bemQuery = $( [ ...document.querySelectorAll( '.block' ) ] );
 
 		return bemQuery.html().read().then( ( values ) => {
@@ -40,6 +42,8 @@ describe( 'BEMQuery#html', () => {
 	} );
 
 	it( 'sets inner HTML for all elements in the collection when parameter is provided', () => {
+		fixture.load( 'elements.html' );
+
 		const bemQuery = $( [ ...document.querySelectorAll( '.block' ) ] );
 		const expectedHTML = 'Testy test';
 
