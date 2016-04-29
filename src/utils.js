@@ -7,6 +7,7 @@ import Batch from './batch';
  * Method that runs all read operations stored in batch
  *
  * @return {Promise} Promise returned by batch.
+ * @memberof BEMQuery
  */
 BEMQuery.prototype.read = function() {
 	if ( !this.batch ) {
@@ -20,6 +21,7 @@ BEMQuery.prototype.read = function() {
  * Method that runs all write operations stored in batch
  *
  * @return {Promise} Promise returned by batch.
+ * @memberof BEMQuery
  */
 BEMQuery.prototype.write = function() {
 	if ( !this.batch ) {
