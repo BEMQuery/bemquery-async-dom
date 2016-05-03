@@ -4,11 +4,9 @@ class BEMQuery {
 	constructor( elements ) {
 		this.elements = elements;
 
-		this.selectorEngine = {
-			converter: {
-				getStateFromClass( className ) {
-					return BEMQuery.state[ className ] || null;
-				}
+		this.converter = {
+			getStateFromClass( className ) {
+				return BEMQuery.state[ className ] || null;
 			}
 		};
 	}
